@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #28282B;
+    min-height: 100vh;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.top{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    height: 65px;
+    width: 100%;
+}
+
+.title{
+    font-size:50px;
+    text-align: center;
+    color:antiquewhite;
+    margin: 0%;
+}
+
+.newButton{
+    background-color:antiquewhite;
+    color:black;
+    border-radius: 10px;
+    border-style: none;
+    border-color: antiquewhite;
+    width: 150px;
+    height: 50px;
+    margin: 5%;
+    font-weight: bold;
+}
+
+.newButton:hover{
+    color:antiquewhite;
+    background-color:black;
+}
+
+.transparent{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 99%;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    opacity: 100%;
+    background-color: blueviolet;
+    color: violet;
+    height: 45%;
+    width: 20%;
+    display:block;
+    border-radius: 0 10px 10px 10px;
+}
+
+.addBtn{
+    font-weight: bold;
+    margin-bottom: 5%;
+    background-color:antiquewhite;
+    color:black;
+    border-style: none;
+    border-color: antiquewhite;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.addBtn:hover{
+    color:antiquewhite;
+    background-color:black;
+}
+
+.input{
+    margin: 5% 0;
+}
+
+.input input{
+    background-color: antiquewhite;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 20px;
+}
+.checkboxLabel{
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: black;
+    opacity: 70%;
+}
+
+.close{
+    justify-content: center;
+    background-color: red;
+    margin-top: 0%;
+    width: 30px;
+    opacity: 60%;
+    border-radius: 0 0 10px 0;
+    cursor: pointer;
+}
+
+.close:hover{
+    opacity: 100%;
+    color: black;
+}
+
+#booksContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.book{
+    border-radius: 2px;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 0 1%;
+}
+
+.book h2{
+    color:white;
+    text-decoration:underline;
+    margin-top: 5% 0;
+    font-size: 50px;
+}
+.book h3{
+    color: white;
+    margin: 1.5% 0;
+    font-size: 25px;
+}
+.book .completed{
+    color: white;
+}
+.book .completed:hover{
+    color: green;
+}
+.book .nCompleted{
+    color: white;
+}
+.book .nCompleted:hover{
+    color: rosybrown;
+}
+.book .bookdel{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    margin: 0;
+}
+.book .bookdel:hover{
+    color: black;
+    cursor: pointer;
+}
